@@ -1,5 +1,5 @@
 """
-My reusable functions fro data analytics
+My reusable functions for data analytics
 By Ayushi Gupta
 
 """
