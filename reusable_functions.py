@@ -43,7 +43,7 @@ def read_csv(path):
            item_dict = create_item_dict(values, headers)
 
            # Add the dictionary to the result
-           result. append(item_dict)
+           result.append(item_dict)
     return result
 
 
@@ -63,4 +63,4 @@ def write_csv(items, path):
             values = []
             for header in headers:
                 values.append(str(item.get(header, "")))
-            f.write('.'.join(values) + "\n")
+            f.write(','.join(values) + "\n")
